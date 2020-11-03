@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 // console.log(app);
 
-app.use(express.static(path.join(__dirname, 'codepen-init')));
+app.use(express.static(path.join(__dirname, 'dynamic-animals')));
 
 app.use(function(req, res, next) {
   res.status(404);
