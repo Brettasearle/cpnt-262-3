@@ -1,0 +1,23 @@
+/* resets and a touch of color */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lavender;
+}
+/* making the gallery fit nice on the center of the page and stay no matter how you resize the screen */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+/* center the text, making the cards look nice together */
+.card { 
+margin: auto;
+text-align: center;
+
+}
